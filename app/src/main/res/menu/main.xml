@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:id="@+id/group1">
+        <item
+            android:id="@+id/action_settings"
+            android:orderInCategory="100"
+            android:title="@string/action_settings"
+            app:showAsAction="never" />
+
+
+    </group>
+
+
+    <item
+        android:id="@+id/contact"
+        android:orderInCategory="110"
+        android:title="@string/Contact"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/graphics"
+        android:orderInCategory="110"
+        android:title="@string/Graphics"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/developer"
+        android:orderInCategory="120"
+        android:title="@string/developer"
+        app:showAsAction="never" />
+
+</menu>
